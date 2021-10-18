@@ -82,18 +82,34 @@ CMakeFiles/NeuralNetLib.dir/lib/stack.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NeuralNetLib.dir/lib/stack.cpp.s"
 	C:\PROGRA~2\MICROS~2\2017\BUILDT~1\VC\Tools\MSVC\1416~1.270\bin\Hostx64\x64\cl.exe  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\NeuralNetLib.dir\lib\stack.cpp.s /c "C:\Users\ash.henson\OneDrive - Hydrix\Documents\neural networks\neural networks\lib\stack.cpp"
 
+CMakeFiles/NeuralNetLib.dir/lib/mymath.cpp.obj: CMakeFiles/NeuralNetLib.dir/flags.make
+CMakeFiles/NeuralNetLib.dir/lib/mymath.cpp.obj: ../lib/mymath.cpp
+CMakeFiles/NeuralNetLib.dir/lib/mymath.cpp.obj: CMakeFiles/NeuralNetLib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\ash.henson\OneDrive - Hydrix\Documents\neural networks\neural networks\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/NeuralNetLib.dir/lib/mymath.cpp.obj"
+	$(CMAKE_COMMAND) -E cmake_cl_compile_depends --dep-file=CMakeFiles\NeuralNetLib.dir\lib\mymath.cpp.obj.d --working-dir="C:\Users\ash.henson\OneDrive - Hydrix\Documents\neural networks\neural networks\build" --filter-prefix="Note: including file: " -- C:\PROGRA~2\MICROS~2\2017\BUILDT~1\VC\Tools\MSVC\1416~1.270\bin\Hostx64\x64\cl.exe  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /showIncludes /FoCMakeFiles\NeuralNetLib.dir\lib\mymath.cpp.obj /FdCMakeFiles\NeuralNetLib.dir\NeuralNetLib.pdb /FS -c "C:\Users\ash.henson\OneDrive - Hydrix\Documents\neural networks\neural networks\lib\mymath.cpp"
+
+CMakeFiles/NeuralNetLib.dir/lib/mymath.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NeuralNetLib.dir/lib/mymath.cpp.i"
+	C:\PROGRA~2\MICROS~2\2017\BUILDT~1\VC\Tools\MSVC\1416~1.270\bin\Hostx64\x64\cl.exe > CMakeFiles\NeuralNetLib.dir\lib\mymath.cpp.i  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\ash.henson\OneDrive - Hydrix\Documents\neural networks\neural networks\lib\mymath.cpp"
+
+CMakeFiles/NeuralNetLib.dir/lib/mymath.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NeuralNetLib.dir/lib/mymath.cpp.s"
+	C:\PROGRA~2\MICROS~2\2017\BUILDT~1\VC\Tools\MSVC\1416~1.270\bin\Hostx64\x64\cl.exe  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\NeuralNetLib.dir\lib\mymath.cpp.s /c "C:\Users\ash.henson\OneDrive - Hydrix\Documents\neural networks\neural networks\lib\mymath.cpp"
+
 # Object files for target NeuralNetLib
 NeuralNetLib_OBJECTS = \
-"CMakeFiles/NeuralNetLib.dir/lib/stack.cpp.obj"
+"CMakeFiles/NeuralNetLib.dir/lib/stack.cpp.obj" \
+"CMakeFiles/NeuralNetLib.dir/lib/mymath.cpp.obj"
 
 # External object files for target NeuralNetLib
 NeuralNetLib_EXTERNAL_OBJECTS =
 
 NeuralNetLib.lib: CMakeFiles/NeuralNetLib.dir/lib/stack.cpp.obj
+NeuralNetLib.lib: CMakeFiles/NeuralNetLib.dir/lib/mymath.cpp.obj
 NeuralNetLib.lib: CMakeFiles/NeuralNetLib.dir/build.make
 NeuralNetLib.lib: CMakeFiles/NeuralNetLib.dir/objects1.rsp
 NeuralNetLib.lib: CMakeFiles/NeuralNetLib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\ash.henson\OneDrive - Hydrix\Documents\neural networks\neural networks\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library NeuralNetLib.lib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\ash.henson\OneDrive - Hydrix\Documents\neural networks\neural networks\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library NeuralNetLib.lib"
 	$(CMAKE_COMMAND) -P CMakeFiles\NeuralNetLib.dir\cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\NeuralNetLib.dir\link.txt --verbose=$(VERBOSE)
 

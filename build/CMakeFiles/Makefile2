@@ -151,12 +151,12 @@ test/clean: test/CMakeFiles/LibTests.dir/clean
 CMakeFiles/NeuralNetLib.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\NeuralNetLib.dir\build.make CMakeFiles/NeuralNetLib.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\NeuralNetLib.dir\build.make CMakeFiles/NeuralNetLib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\ash.henson\OneDrive - Hydrix\Documents\neural networks\neural networks\build\CMakeFiles" --progress-num=3,4 "Built target NeuralNetLib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\ash.henson\OneDrive - Hydrix\Documents\neural networks\neural networks\build\CMakeFiles" --progress-num=3,4,5 "Built target NeuralNetLib"
 .PHONY : CMakeFiles/NeuralNetLib.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/NeuralNetLib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\ash.henson\OneDrive - Hydrix\Documents\neural networks\neural networks\build\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\ash.henson\OneDrive - Hydrix\Documents\neural networks\neural networks\build\CMakeFiles" 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/NeuralNetLib.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\ash.henson\OneDrive - Hydrix\Documents\neural networks\neural networks\build\CMakeFiles" 0
 .PHONY : CMakeFiles/NeuralNetLib.dir/rule
@@ -177,7 +177,7 @@ CMakeFiles/NeuralNetLib.dir/clean:
 googletest/googlemock/CMakeFiles/gmock_main.dir/all:
 	$(MAKE) $(MAKESILENT) -f googletest\googlemock\CMakeFiles\gmock_main.dir\build.make googletest/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f googletest\googlemock\CMakeFiles\gmock_main.dir\build.make googletest/googlemock/CMakeFiles/gmock_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\ash.henson\OneDrive - Hydrix\Documents\neural networks\neural networks\build\CMakeFiles" --progress-num=8,9,10,11 "Built target gmock_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\ash.henson\OneDrive - Hydrix\Documents\neural networks\neural networks\build\CMakeFiles" --progress-num=9,10,11,12 "Built target gmock_main"
 .PHONY : googletest/googlemock/CMakeFiles/gmock_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -203,7 +203,7 @@ googletest/googlemock/CMakeFiles/gmock_main.dir/clean:
 googletest/googlemock/CMakeFiles/gmock.dir/all:
 	$(MAKE) $(MAKESILENT) -f googletest\googlemock\CMakeFiles\gmock.dir\build.make googletest/googlemock/CMakeFiles/gmock.dir/depend
 	$(MAKE) $(MAKESILENT) -f googletest\googlemock\CMakeFiles\gmock.dir\build.make googletest/googlemock/CMakeFiles/gmock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\ash.henson\OneDrive - Hydrix\Documents\neural networks\neural networks\build\CMakeFiles" --progress-num=5,6,7 "Built target gmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\ash.henson\OneDrive - Hydrix\Documents\neural networks\neural networks\build\CMakeFiles" --progress-num=6,7,8 "Built target gmock"
 .PHONY : googletest/googlemock/CMakeFiles/gmock.dir/all
 
 # Build rule for subdir invocation for target.
@@ -229,7 +229,7 @@ googletest/googlemock/CMakeFiles/gmock.dir/clean:
 googletest/googletest/CMakeFiles/gtest_main.dir/all: googletest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f googletest\googletest\CMakeFiles\gtest_main.dir\build.make googletest/googletest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f googletest\googletest\CMakeFiles\gtest_main.dir\build.make googletest/googletest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\ash.henson\OneDrive - Hydrix\Documents\neural networks\neural networks\build\CMakeFiles" --progress-num=14,15 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\ash.henson\OneDrive - Hydrix\Documents\neural networks\neural networks\build\CMakeFiles" --progress-num=15,16 "Built target gtest_main"
 .PHONY : googletest/googletest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -255,7 +255,7 @@ googletest/googletest/CMakeFiles/gtest_main.dir/clean:
 googletest/googletest/CMakeFiles/gtest.dir/all:
 	$(MAKE) $(MAKESILENT) -f googletest\googletest\CMakeFiles\gtest.dir\build.make googletest/googletest/CMakeFiles/gtest.dir/depend
 	$(MAKE) $(MAKESILENT) -f googletest\googletest\CMakeFiles\gtest.dir\build.make googletest/googletest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\ash.henson\OneDrive - Hydrix\Documents\neural networks\neural networks\build\CMakeFiles" --progress-num=12,13 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\ash.henson\OneDrive - Hydrix\Documents\neural networks\neural networks\build\CMakeFiles" --progress-num=13,14 "Built target gtest"
 .PHONY : googletest/googletest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -288,7 +288,7 @@ test/CMakeFiles/LibTests.dir/all: googletest/googletest/CMakeFiles/gtest_main.di
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/LibTests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\ash.henson\OneDrive - Hydrix\Documents\neural networks\neural networks\build\CMakeFiles" 8
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\ash.henson\OneDrive - Hydrix\Documents\neural networks\neural networks\build\CMakeFiles" 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/CMakeFiles/LibTests.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\ash.henson\OneDrive - Hydrix\Documents\neural networks\neural networks\build\CMakeFiles" 0
 .PHONY : test/CMakeFiles/LibTests.dir/rule

@@ -13,10 +13,12 @@ add_subdirectory(googletest)
 
 set(Headers
     ./include/stack.h
+    ./include/mymath.h
 )
 
 set(Sources
     ./lib/stack.cpp
+    ./lib/mymath.cpp
 )
 
 configure_file(./libconf.h.in ./libconf.h)

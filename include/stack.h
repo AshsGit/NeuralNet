@@ -5,8 +5,6 @@
 #include <exception>
 #include <string>
 
-#include "config.h"
-
 using namespace std;
 
 //exceptions
@@ -15,22 +13,24 @@ class StackPopOnEmpty : public StackException {};
 
 
 //classes
+template<typename T>
 struct Stack {
-    virtual void push(config::weight_t payload) = 0;
-    virtual config::weight_t pop(void) = 0;
+    virtual void push(T payload) = 0;
+    virtual T pop(void) = 0;
     virtual bool isEmpty(void) = 0;
 };
 
 
 namespace linked {
-    class Stack : public ::Stack {
+    template<typename T>
+    class Stack : public ::Stack<T> {
     private:
         struct Node;
         Node* head = nullptr;
     public:
-        Stack() = default;
-        void push(config::weight_t payload);
-        config::weight_t pop(void);
+        Stack<T>() = default;
+        void push(T payload);
+        T pop(void);
         bool isEmpty(void);
     };
 }

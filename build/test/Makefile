@@ -172,29 +172,29 @@ LibTests/fast:
 	cd /d C:\Users\ASH~1.HEN\ONEDRI~1\DOCUME~2\NEURAL~1\NEURAL~1\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\LibTests.dir\build.make test/CMakeFiles/LibTests.dir/build
 .PHONY : LibTests/fast
 
-StackTests.obj: StackTests.cpp.obj
-.PHONY : StackTests.obj
+MyMathTests.obj: MyMathTests.cpp.obj
+.PHONY : MyMathTests.obj
 
 # target to build an object file
-StackTests.cpp.obj:
-	cd /d C:\Users\ASH~1.HEN\ONEDRI~1\DOCUME~2\NEURAL~1\NEURAL~1\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\LibTests.dir\build.make test/CMakeFiles/LibTests.dir/StackTests.cpp.obj
-.PHONY : StackTests.cpp.obj
+MyMathTests.cpp.obj:
+	cd /d C:\Users\ASH~1.HEN\ONEDRI~1\DOCUME~2\NEURAL~1\NEURAL~1\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\LibTests.dir\build.make test/CMakeFiles/LibTests.dir/MyMathTests.cpp.obj
+.PHONY : MyMathTests.cpp.obj
 
-StackTests.i: StackTests.cpp.i
-.PHONY : StackTests.i
+MyMathTests.i: MyMathTests.cpp.i
+.PHONY : MyMathTests.i
 
 # target to preprocess a source file
-StackTests.cpp.i:
-	cd /d C:\Users\ASH~1.HEN\ONEDRI~1\DOCUME~2\NEURAL~1\NEURAL~1\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\LibTests.dir\build.make test/CMakeFiles/LibTests.dir/StackTests.cpp.i
-.PHONY : StackTests.cpp.i
+MyMathTests.cpp.i:
+	cd /d C:\Users\ASH~1.HEN\ONEDRI~1\DOCUME~2\NEURAL~1\NEURAL~1\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\LibTests.dir\build.make test/CMakeFiles/LibTests.dir/MyMathTests.cpp.i
+.PHONY : MyMathTests.cpp.i
 
-StackTests.s: StackTests.cpp.s
-.PHONY : StackTests.s
+MyMathTests.s: MyMathTests.cpp.s
+.PHONY : MyMathTests.s
 
 # target to generate assembly for a file
-StackTests.cpp.s:
-	cd /d C:\Users\ASH~1.HEN\ONEDRI~1\DOCUME~2\NEURAL~1\NEURAL~1\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\LibTests.dir\build.make test/CMakeFiles/LibTests.dir/StackTests.cpp.s
-.PHONY : StackTests.cpp.s
+MyMathTests.cpp.s:
+	cd /d C:\Users\ASH~1.HEN\ONEDRI~1\DOCUME~2\NEURAL~1\NEURAL~1\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\LibTests.dir\build.make test/CMakeFiles/LibTests.dir/MyMathTests.cpp.s
+.PHONY : MyMathTests.cpp.s
 
 # Help Target
 help:
@@ -209,9 +209,9 @@ help:
 	@echo ... rebuild_cache
 	@echo ... test
 	@echo ... LibTests
-	@echo ... StackTests.obj
-	@echo ... StackTests.i
-	@echo ... StackTests.s
+	@echo ... MyMathTests.obj
+	@echo ... MyMathTests.i
+	@echo ... MyMathTests.s
 .PHONY : help
 
 

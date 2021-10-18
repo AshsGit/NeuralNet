@@ -6,7 +6,7 @@
 struct LinkedStackTests 
     : public ::testing::Test 
 {
-    Stack* stack = new ::linked::Stack();
+    Stack<float>* stack = new ::linked::Stack<float>();
 };
 
 TEST_F(LinkedStackTests, pop_on_empty_1) {

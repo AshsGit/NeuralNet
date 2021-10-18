@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/ash.henson/OneDrive - Hydrix/Documents/neural networks/neural networks/test/StackTests.cpp" "test/CMakeFiles/LibTests.dir/StackTests.cpp.obj" "msvc" "test/CMakeFiles/LibTests.dir/StackTests.cpp.obj.d"
+  "C:/Users/ash.henson/OneDrive - Hydrix/Documents/neural networks/neural networks/test/MyMathTests.cpp" "test/CMakeFiles/LibTests.dir/MyMathTests.cpp.obj" "msvc" "test/CMakeFiles/LibTests.dir/MyMathTests.cpp.obj.d"
   )
 
 # Targets to which this target links.

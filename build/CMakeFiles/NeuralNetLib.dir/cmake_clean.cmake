@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/NeuralNetLib.dir/lib/mymath.cpp.obj"
+  "CMakeFiles/NeuralNetLib.dir/lib/mymath.cpp.obj.d"
   "CMakeFiles/NeuralNetLib.dir/lib/stack.cpp.obj"
   "CMakeFiles/NeuralNetLib.dir/lib/stack.cpp.obj.d"
   "NeuralNetLib.lib"

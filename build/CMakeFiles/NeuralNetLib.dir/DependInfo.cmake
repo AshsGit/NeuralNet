@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/Users/ash.henson/OneDrive - Hydrix/Documents/neural networks/neural networks/lib/mymath.cpp" "CMakeFiles/NeuralNetLib.dir/lib/mymath.cpp.obj" "msvc" "CMakeFiles/NeuralNetLib.dir/lib/mymath.cpp.obj.d"
   "C:/Users/ash.henson/OneDrive - Hydrix/Documents/neural networks/neural networks/lib/stack.cpp" "CMakeFiles/NeuralNetLib.dir/lib/stack.cpp.obj" "msvc" "CMakeFiles/NeuralNetLib.dir/lib/stack.cpp.obj.d"
   )
 

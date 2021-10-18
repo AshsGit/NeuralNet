@@ -5,6 +5,11 @@
   "file": "C:/Users/ash.henson/OneDrive - Hydrix/Documents/neural networks/neural networks/lib/stack.cpp"
 },
 {
+  "directory": "C:/Users/ash.henson/OneDrive - Hydrix/Documents/neural networks/neural networks/build",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2017\\BUILDT~1\\VC\\Tools\\MSVC\\1416~1.270\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoCMakeFiles\\NeuralNetLib.dir\\lib\\mymath.cpp.obj /FdCMakeFiles\\NeuralNetLib.dir\\NeuralNetLib.pdb /FS -c \"C:\\Users\\ash.henson\\OneDrive - Hydrix\\Documents\\neural networks\\neural networks\\lib\\mymath.cpp\"",
+  "file": "C:/Users/ash.henson/OneDrive - Hydrix/Documents/neural networks/neural networks/lib/mymath.cpp"
+},
+{
   "directory": "C:/Users/ash.henson/OneDrive - Hydrix/Documents/neural networks/neural networks/build/googletest/googlemock",
   "command": "C:\\PROGRA~2\\MICROS~2\\2017\\BUILDT~1\\VC\\Tools\\MSVC\\1416~1.270\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -IC:\\Users\\ASH~1.HEN\\ONEDRI~1\\DOCUME~2\\NEURAL~1\\NEURAL~1\\GOOGLE~1\\GOOGLE~1\\include -IC:\\Users\\ASH~1.HEN\\ONEDRI~1\\DOCUME~2\\NEURAL~1\\NEURAL~1\\GOOGLE~1\\GOOGLE~1 -IC:\\Users\\ASH~1.HEN\\ONEDRI~1\\DOCUME~2\\NEURAL~1\\NEURAL~1\\GOOGLE~1\\GOOGLE~2\\include -IC:\\Users\\ASH~1.HEN\\ONEDRI~1\\DOCUME~2\\NEURAL~1\\NEURAL~1\\GOOGLE~1\\GOOGLE~2 /DWIN32 /D_WINDOWS /W4 /GR  /MDd /Zi /Ob0 /Od /RTC1 -GS -W4 -WX -wd4251 -wd4275 -nologo -J -D_UNICODE -DUNICODE -DWIN32 -D_WIN32 -DSTRICT -DWIN32_LEAN_AND_MEAN -wd4702 -utf-8 -DGTEST_HAS_PTHREAD=0 -EHsc -D_HAS_EXCEPTIONS=1  -std:c++17 /FoCMakeFiles\\gmock_main.dir\\__\\googletest\\src\\gtest-all.cc.obj /Fd..\\..\\bin\\gmock_maind.pdb /FS -c \"C:\\Users\\ash.henson\\OneDrive - Hydrix\\Documents\\neural networks\\neural networks\\googletest\\googletest\\src\\gtest-all.cc\"",
   "file": "C:/Users/ash.henson/OneDrive - Hydrix/Documents/neural networks/neural networks/googletest/googletest/src/gtest-all.cc"
@@ -41,7 +46,7 @@
 },
 {
   "directory": "C:/Users/ash.henson/OneDrive - Hydrix/Documents/neural networks/neural networks/build/test",
-  "command": "C:\\PROGRA~2\\MICROS~2\\2017\\BUILDT~1\\VC\\Tools\\MSVC\\1416~1.270\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -IC:\\Users\\ASH~1.HEN\\ONEDRI~1\\DOCUME~2\\NEURAL~1\\NEURAL~1\\GOOGLE~1\\GOOGLE~2\\include -IC:\\Users\\ASH~1.HEN\\ONEDRI~1\\DOCUME~2\\NEURAL~1\\NEURAL~1\\GOOGLE~1\\GOOGLE~2 /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoCMakeFiles\\LibTests.dir\\StackTests.cpp.obj /FdCMakeFiles\\LibTests.dir/ /FS -c \"C:\\Users\\ash.henson\\OneDrive - Hydrix\\Documents\\neural networks\\neural networks\\test\\StackTests.cpp\"",
-  "file": "C:/Users/ash.henson/OneDrive - Hydrix/Documents/neural networks/neural networks/test/StackTests.cpp"
+  "command": "C:\\PROGRA~2\\MICROS~2\\2017\\BUILDT~1\\VC\\Tools\\MSVC\\1416~1.270\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -IC:\\Users\\ASH~1.HEN\\ONEDRI~1\\DOCUME~2\\NEURAL~1\\NEURAL~1\\GOOGLE~1\\GOOGLE~2\\include -IC:\\Users\\ASH~1.HEN\\ONEDRI~1\\DOCUME~2\\NEURAL~1\\NEURAL~1\\GOOGLE~1\\GOOGLE~2 /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoCMakeFiles\\LibTests.dir\\MyMathTests.cpp.obj /FdCMakeFiles\\LibTests.dir/ /FS -c \"C:\\Users\\ash.henson\\OneDrive - Hydrix\\Documents\\neural networks\\neural networks\\test\\MyMathTests.cpp\"",
+  "file": "C:/Users/ash.henson/OneDrive - Hydrix/Documents/neural networks/neural networks/test/MyMathTests.cpp"
 }
 ]

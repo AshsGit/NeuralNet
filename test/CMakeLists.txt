@@ -3,7 +3,8 @@ cmake_minimum_required(VERSION 3.10)
 set(This LibTests)
 
 set(Sources
-    StackTests.cpp
+#    StackTests.cpp
+    MyMathTests.cpp
 )
 
 add_executable(${This} ${Sources})

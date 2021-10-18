@@ -236,6 +236,30 @@ LibTests/fast:
 	$(MAKE) $(MAKESILENT) -f test\CMakeFiles\LibTests.dir\build.make test/CMakeFiles/LibTests.dir/build
 .PHONY : LibTests/fast
 
+lib/mymath.obj: lib/mymath.cpp.obj
+.PHONY : lib/mymath.obj
+
+# target to build an object file
+lib/mymath.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NeuralNetLib.dir\build.make CMakeFiles/NeuralNetLib.dir/lib/mymath.cpp.obj
+.PHONY : lib/mymath.cpp.obj
+
+lib/mymath.i: lib/mymath.cpp.i
+.PHONY : lib/mymath.i
+
+# target to preprocess a source file
+lib/mymath.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NeuralNetLib.dir\build.make CMakeFiles/NeuralNetLib.dir/lib/mymath.cpp.i
+.PHONY : lib/mymath.cpp.i
+
+lib/mymath.s: lib/mymath.cpp.s
+.PHONY : lib/mymath.s
+
+# target to generate assembly for a file
+lib/mymath.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NeuralNetLib.dir\build.make CMakeFiles/NeuralNetLib.dir/lib/mymath.cpp.s
+.PHONY : lib/mymath.cpp.s
+
 lib/stack.obj: lib/stack.cpp.obj
 .PHONY : lib/stack.obj
 
@@ -278,6 +302,9 @@ help:
 	@echo ... gmock_main
 	@echo ... gtest
 	@echo ... gtest_main
+	@echo ... lib/mymath.obj
+	@echo ... lib/mymath.i
+	@echo ... lib/mymath.s
 	@echo ... lib/stack.obj
 	@echo ... lib/stack.i
 	@echo ... lib/stack.s

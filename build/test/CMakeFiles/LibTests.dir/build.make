@@ -68,28 +68,28 @@ include test/CMakeFiles/LibTests.dir/progress.make
 # Include the compile flags for this target's objects.
 include test/CMakeFiles/LibTests.dir/flags.make
 
-test/CMakeFiles/LibTests.dir/StackTests.cpp.obj: test/CMakeFiles/LibTests.dir/flags.make
-test/CMakeFiles/LibTests.dir/StackTests.cpp.obj: ../test/StackTests.cpp
-test/CMakeFiles/LibTests.dir/StackTests.cpp.obj: test/CMakeFiles/LibTests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\ash.henson\OneDrive - Hydrix\Documents\neural networks\neural networks\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/LibTests.dir/StackTests.cpp.obj"
-	cd /d C:\Users\ASH~1.HEN\ONEDRI~1\DOCUME~2\NEURAL~1\NEURAL~1\build\test && $(CMAKE_COMMAND) -E cmake_cl_compile_depends --dep-file=CMakeFiles\LibTests.dir\StackTests.cpp.obj.d --working-dir="C:\Users\ash.henson\OneDrive - Hydrix\Documents\neural networks\neural networks\build\test" --filter-prefix="Note: including file: " -- C:\PROGRA~2\MICROS~2\2017\BUILDT~1\VC\Tools\MSVC\1416~1.270\bin\Hostx64\x64\cl.exe  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /showIncludes /FoCMakeFiles\LibTests.dir\StackTests.cpp.obj /FdCMakeFiles\LibTests.dir/ /FS -c "C:\Users\ash.henson\OneDrive - Hydrix\Documents\neural networks\neural networks\test\StackTests.cpp"
+test/CMakeFiles/LibTests.dir/MyMathTests.cpp.obj: test/CMakeFiles/LibTests.dir/flags.make
+test/CMakeFiles/LibTests.dir/MyMathTests.cpp.obj: ../test/MyMathTests.cpp
+test/CMakeFiles/LibTests.dir/MyMathTests.cpp.obj: test/CMakeFiles/LibTests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\ash.henson\OneDrive - Hydrix\Documents\neural networks\neural networks\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/LibTests.dir/MyMathTests.cpp.obj"
+	cd /d C:\Users\ASH~1.HEN\ONEDRI~1\DOCUME~2\NEURAL~1\NEURAL~1\build\test && $(CMAKE_COMMAND) -E cmake_cl_compile_depends --dep-file=CMakeFiles\LibTests.dir\MyMathTests.cpp.obj.d --working-dir="C:\Users\ash.henson\OneDrive - Hydrix\Documents\neural networks\neural networks\build\test" --filter-prefix="Note: including file: " -- C:\PROGRA~2\MICROS~2\2017\BUILDT~1\VC\Tools\MSVC\1416~1.270\bin\Hostx64\x64\cl.exe  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /showIncludes /FoCMakeFiles\LibTests.dir\MyMathTests.cpp.obj /FdCMakeFiles\LibTests.dir/ /FS -c "C:\Users\ash.henson\OneDrive - Hydrix\Documents\neural networks\neural networks\test\MyMathTests.cpp"
 
-test/CMakeFiles/LibTests.dir/StackTests.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LibTests.dir/StackTests.cpp.i"
-	cd /d C:\Users\ASH~1.HEN\ONEDRI~1\DOCUME~2\NEURAL~1\NEURAL~1\build\test && C:\PROGRA~2\MICROS~2\2017\BUILDT~1\VC\Tools\MSVC\1416~1.270\bin\Hostx64\x64\cl.exe > CMakeFiles\LibTests.dir\StackTests.cpp.i  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\ash.henson\OneDrive - Hydrix\Documents\neural networks\neural networks\test\StackTests.cpp"
+test/CMakeFiles/LibTests.dir/MyMathTests.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LibTests.dir/MyMathTests.cpp.i"
+	cd /d C:\Users\ASH~1.HEN\ONEDRI~1\DOCUME~2\NEURAL~1\NEURAL~1\build\test && C:\PROGRA~2\MICROS~2\2017\BUILDT~1\VC\Tools\MSVC\1416~1.270\bin\Hostx64\x64\cl.exe > CMakeFiles\LibTests.dir\MyMathTests.cpp.i  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\ash.henson\OneDrive - Hydrix\Documents\neural networks\neural networks\test\MyMathTests.cpp"
 
-test/CMakeFiles/LibTests.dir/StackTests.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LibTests.dir/StackTests.cpp.s"
-	cd /d C:\Users\ASH~1.HEN\ONEDRI~1\DOCUME~2\NEURAL~1\NEURAL~1\build\test && C:\PROGRA~2\MICROS~2\2017\BUILDT~1\VC\Tools\MSVC\1416~1.270\bin\Hostx64\x64\cl.exe  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\LibTests.dir\StackTests.cpp.s /c "C:\Users\ash.henson\OneDrive - Hydrix\Documents\neural networks\neural networks\test\StackTests.cpp"
+test/CMakeFiles/LibTests.dir/MyMathTests.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LibTests.dir/MyMathTests.cpp.s"
+	cd /d C:\Users\ASH~1.HEN\ONEDRI~1\DOCUME~2\NEURAL~1\NEURAL~1\build\test && C:\PROGRA~2\MICROS~2\2017\BUILDT~1\VC\Tools\MSVC\1416~1.270\bin\Hostx64\x64\cl.exe  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\LibTests.dir\MyMathTests.cpp.s /c "C:\Users\ash.henson\OneDrive - Hydrix\Documents\neural networks\neural networks\test\MyMathTests.cpp"
 
 # Object files for target LibTests
 LibTests_OBJECTS = \
-"CMakeFiles/LibTests.dir/StackTests.cpp.obj"
+"CMakeFiles/LibTests.dir/MyMathTests.cpp.obj"
 
 # External object files for target LibTests
 LibTests_EXTERNAL_OBJECTS =
 
-test/LibTests.exe: test/CMakeFiles/LibTests.dir/StackTests.cpp.obj
+test/LibTests.exe: test/CMakeFiles/LibTests.dir/MyMathTests.cpp.obj
 test/LibTests.exe: test/CMakeFiles/LibTests.dir/build.make
 test/LibTests.exe: lib/gtest_maind.lib
 test/LibTests.exe: NeuralNetLib.lib
