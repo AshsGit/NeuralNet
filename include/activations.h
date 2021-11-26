@@ -1,8 +1,9 @@
 #ifndef ACTIVATIONS_H
 #define ACTIVATIONS_H
 
-using Activation = double (*)(double input);
+template <class _F>
+using Activation = _F (*)(_F input);
 
-Activation sigmoid_approx1;
+#include "./activations_impl.h"
 
 #endif
