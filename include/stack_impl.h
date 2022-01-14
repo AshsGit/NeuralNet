@@ -6,6 +6,8 @@
 #include "./stack.h"
 
 #include <vector>
+#include "../../external/eigen/Eigen/Dense"
+
 
 using namespace std;
 
@@ -35,21 +37,23 @@ T Stack<T>::pop(void) {
     }
 }
 
-template<typename T>
-void Stack<T>::push(vector<T> items) {
+template<typename _T>
+template<size_t _S>
+void Stack<_T>::push(Eigen::Vector<_T, _S> items) {
     for (int i = items.size()-1; i >=0; i--) {
         this->push(items[i]);
     }
 }
 
-template<typename T>
-vector<T> Stack<T>::pop(unsigned int n) {
+template<typename _T>
+template<size_t _S>
+Eigen::Vector<_T, _S> Stack<_T>::pop() {
     
-    vector<T> vals (n);
+    Eigen::Vector<_T, _S> vals;
     try
     {
         for (int i = 0; i < n; i++) {
-            vals[i] = this->pop();
+            vals(i) = this->pop();
         }
     }
     catch(const StackPopOnEmpty& e)

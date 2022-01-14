@@ -6,7 +6,7 @@ set(Sources
     StackTests.cpp
     MyMathTests.cpp
     layers/Testfc_layer.cpp
-)
+ "math/matrix/MatTests.cpp")
 
 add_executable(${This} ${Sources})
 target_link_libraries(${This} PUBLIC

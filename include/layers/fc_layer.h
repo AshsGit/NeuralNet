@@ -5,8 +5,9 @@
 
 #include "./base.h"
 #include "../stack.h"
-#include "../mymath.h"
 #include "../activations.h"
+
+#include "../../external/eigen/Eigen/Dense"
 
 #include <type_traits>
 
@@ -15,27 +16,20 @@ template <class _T, size_t _In, size_t _Out>
 class FCLayer : // Fully Connected Feed Forward Layer 
     public HiddenLayer<_T>
 {
-    //static_assert(std::is_arithmetic_v<_T>, "FCLayer not defined for non-arithmetic types");
 
 protected:
-    Activation<_T> activation;
+    ActivationFunc<_T> act_func;
 
-    const size_t in = _In;   //number of nodes in previous layer (i.e. # of inputs to pop from stack)
-    const size_t out = _Out; //number of nodes in this layer (i.e. # of outputs to push to stack)
-    
-    StaticMatrix2D<_T, _In, _Out> weights;
-    vector<_T> biases;
-
-    void init_weights();
-    void init_biases();
+    Eigen::Matrix<_T, _In, _Out> weights;
+    Eigen::Vector<_T, _Out> biases;
 
 public:
-    FCLayer(Activation<_T> activation) : 
-        activation(activation) 
-        {   
-            this->init_weights(); 
-            this->init_biases(); 
-        };
+    FCLayer(
+        ActivationFunc<_T> act_func,
+        Eigen::Matrix<_T, _In, _Out> init_weights,
+        Eigen::Vector<_T, _Out> init_biases
+    ) :
+        act_func(act_func), weights(init_weights), biases(init_biases) {};
 
     void next();
     void backpropogate();

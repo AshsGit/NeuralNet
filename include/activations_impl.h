@@ -7,8 +7,16 @@
 
 #include <math.h>
 
-float sigmoid_approx1(float input) {
-    return 1/(1-fabs(input)); //approximation 
-} 
+struct SigmoidApprox : public ActivationFunc<float>
+{
+    float run(float in) {
+        return 1 / (1 - fabs(in)); //approximation 
+    }
+
+    float runDeriv(float in) {
+        float r = SigmoidApprox::run(in);
+        return r * (1 - r);
+    }
+};
 
 #endif
